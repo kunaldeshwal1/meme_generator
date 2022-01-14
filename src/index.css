@@ -1,0 +1,130 @@
+.imoji{
+  height: 100%;
+  margin-right: 6px;
+}
+.header{
+
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--project{
+  font-weight: bolder;
+  margin-left: auto;
+
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--input2 {
+  
+  position: absolute;
+width: 230px;
+height: 35px;
+left: 283px;
+top: 115spx;
+
+border: 1px solid #D5D4D8;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.form--input1{
+  position: absolute;
+  width: 230px;
+  height: 35px;
+  left: 36px;
+  top: 115x;
+  
+  border: 1px solid #D5D4D8;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form--button {
+  position: absolute;
+width: 477px;
+height: 60px;
+left: 36px;
+top: 165px;
+align-items: center;
+font-weight: bold;
+color: white;
+background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+border-radius: 5px;
+}
+.memeImg{
+  position: absolute;
+width: 477px;
+height: 268px;
+left: 36px;
+top: 250px;
+
+border-radius: 10px;
+}
+
+.meme--text-top{
+  position: absolute;
+width: 106px;
+left: 213px;
+top: 243px;
+
+font-family: Impact;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+text-align: center;
+text-shadow:
+2px 2px 0 #000,
+-2px -2px 0 #000,
+2px -2px 0 #000,
+-2px 2px 0 #000,
+0 2px 0 #000,
+2px 0 0 #000,
+0 -2px 0 #000,
+-2px 0 0 #000,
+2px 2px 5px #000;
+
+
+color: #FFFFFF;
+position: absolute;
+width: 80%;
+text-align: center;
+left: 15%;
+transform: translateX(-50%);
+}
+.meme--text-bottom{
+  position: absolute;
+width: 255px;
+height: 39px;
+left: 139px;
+top: 440px;
+
+font-family: Impact;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+text-shadow:
+2px 2px 0 #000,
+-2px -2px 0 #000,
+2px -2px 0 #000,
+-2px 2px 0 #000,
+0 2px 0 #000,
+2px 0 0 #000,
+0 -2px 0 #000,
+-2px 0 0 #000,
+2px 2px 5px #000;
+
+}
